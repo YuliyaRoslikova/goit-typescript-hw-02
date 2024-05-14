@@ -1,0 +1,19 @@
+.moreBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #3609c7;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.moreBtn:hover {
+    background-color: #1c0666;
+    transform: scale(1.1);
+}
